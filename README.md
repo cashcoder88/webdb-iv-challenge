@@ -9,7 +9,7 @@
 
 ## Assignment
 
-Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
+Design the **data model** for a _recipe book_ application, then use [] `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
 
 The requirements for the system, as stated by the client are:
 
@@ -22,7 +22,7 @@ The requirements for the system, as stated by the client are:
 - have a way to pick a **dish** and a **recipe** and get a _shopping list_ with all the ingredients, and quantity of each, needed to cook the **dish**.
 
 In addition to the `migrations` and `seeding` scripts, write a data access file that **exports** an object with the following functions:
-
+[]
 - `getDishes()`: should return a list of all dishes in the database.
 - `addDish(dish)`: should add the **dish** to the database and return the `id` of the new **dish**.
 - `getDish(id)`: should return the **dish** with the provided `id` and include a list of the related recipes.
