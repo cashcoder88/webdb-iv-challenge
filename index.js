@@ -5,8 +5,8 @@ const server = express();
 server.use(express.json());
 
 
-server.get('/', (req, res) => {
-    res.status(200).json('This is a test, your server is Getting!')
+server.get('/api/dishes', (req, res) => {
+    
 });
 
 //--------------------------------------------
